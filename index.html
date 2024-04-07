@@ -136,7 +136,7 @@
       <h2 class="heading heading-sec heading-sec__mb-bg">
         <span class="heading-sec__main">Projects</span>
         <span class="heading-sec__sub">
-          Berikut adalah beberapa project yang sudah saya buat
+          Below are some projects that I have made
         </span>
       </h2>
 
@@ -148,11 +148,10 @@
           <div class="projects__row-content">
             <h3 class="projects__row-content-title">Sistem DBCustomer</h3>
             <p class="projects__row-content-desc">
-              Pada sistem yang saya kerjakan ini terdapat beberapa fitur yang saya buat, yaitu fitur login, fitur
-              register, fitur CRUD, fitur search, fitur pagination, fitur export data ke excel, fitur import data dari
-              excel, untuk keperluan perusahaan dan juga membuat kunjungan sales kepada customer.
+             In the system that I am working on, there are several features that I created, namely the login feature, features
+               register, CRUD feature, search feature, pagination feature, export data to Excel feature, import data feature from
+               excel, for company needs and also making sales visits to customers.
             </p>
-            <!-- <a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a> -->
           </div>
         </div>
         <div class="projects__row">
@@ -162,29 +161,11 @@
           <div class="projects__row-content">
             <h3 class="projects__row-content-title">Portfolio Perusahaan PT Baraetamenergi</h3>
             <p class="projects__row-content-desc">
-              Pada website yang saya buat ini, saya menampilkan profil dari perusahaan serta beberapa gambar dan
-              surat-surat keabsahan yang dimiliki perusahaan
+            On this website that I created, I display the company profile as well as several pictures and
+               legality letters owned by the company
             </p>
-            <!-- <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer"></a> -->
-            <a href="https://www.Baraetamenergi.com/" class="btn btn--med btn--theme dynamicBgClr"
-              target="_blank">Website</a>
           </div>
         </div>
-        <!-- <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" class="projects__row-img"
-              loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Pengembangan</h3>
-            <p class="projects__row-content-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-              facilis tempora, explicabo quae quod deserunt eius sapiente
-              praesentium.
-            </p>
-            <a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
-          </div>
-        </div> -->
       </div>
     </div>
   </section>
@@ -208,14 +189,12 @@
         <div class="main-footer__row main-footer__row-2">
           <h4 class="heading heading-sm text-lt">Rizqi Alif</h4>
           <p class="main-footer__short-desc">
-            Jika berkenan bisa hubungi saya melalui media social di samping
+           If you wish, you can contact me via social media on the side
           </p>
         </div>
       </div>
-
-      <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
       <div class="main-footer__lower">
-        &copy; Copyright 2022. Made by
+        &copy; Copyright <span id="year"></span>. Made by
         <a rel="noreferrer" target="_blank">Alif</a>
       </div>
     </div>
@@ -225,3 +204,7 @@
 </body>
 
 </html>
+
+<script>
+document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
